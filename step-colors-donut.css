@@ -1,0 +1,56 @@
+/* icons white and donut border */
+.appcues-step-category-transform img {
+    filter: grayscale(1) contrast(1) brightness(100);
+    width: 36px;
+}
+.appcues-step-category-transform > div:first-child > div:first-child {
+    border: 15px solid white;
+    /* box-shadow: 0 0 0 1px #d5e0e8; */
+    box-shadow: rgb(40 60 75 / 18%) 3px 3px
+}
+
+.css-7rs9kt.e191dav00 .appcues-step-category-transform > div:first-child > div:first-child {
+    box-shadow: 0 0 0 1px #d5e0e8;
+}
+
+/* default rich blue #0063E3 */
+.appcues-step-category-transform > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-sortV2 > div:first-child div:first-child
+{ background-color: #0063E3; }
+
+/* make these light blue #003C8A */
+.appcues-step-category-transform.appcues-step-type-sortV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-rowFilterV5 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-limitRows > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-fillBlanks > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-dedupeV3 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-mergeV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-addRows > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-textCasingV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-numberFormatV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-dateConversionV4 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-replaceTokensV6 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-dataCleaning > div:first-child div:first-child
+{ background-color: #189AF2; }
+
+/* make these dark blue #003C8A */
+.appcues-step-category-transform.appcues-step-type-joinComplexV5 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-joinComplexV6 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-concatV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-pivot > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-unpivotV4 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-tableFlip > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-findOverlapV3 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-sumV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-count > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-averageV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-maximum > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-groupByV4 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-minimum > div:first-child div:first-child
+{ background-color: #003C8A; }
+
+
+/* make these darkest blue #002659 */
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 > div:first-child div:first-child
+{ background-color: #002659; }
