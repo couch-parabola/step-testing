@@ -3,6 +3,12 @@
     /* filter: grayscale(1) contrast(1) brightness(100);
     width: 36px; */
 }
+
+.css-1y32x6r {
+    height: 72px;
+    width: 72px;
+}
+
 .appcues-step-category-transform > div:first-child > div:first-child {
     border: 15px solid white;
     /* box-shadow: 0 0 0 1px #d5e0e8; */
@@ -15,8 +21,22 @@
 
 /* default rich blue #0063E3 */
 .appcues-step-category-transform > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-sortV2 > div:first-child div:first-child
-.appcues-step-category-transform.appcues-step-type-editColumns > div:first-child div:first-child
+.appcues-step-category-transform.appcues-step-type-editColumns > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-columnConcatV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-columnSplitV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-textExtractV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-nameParser > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-regex > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-textMerge > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-addDateTime > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-rowNumbers > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-mathOperation > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-ifElse > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-growthRateV2 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-dateComparisonV4 > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-rowLookup > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-minMax > div:first-child div:first-child,
+.appcues-step-category-transform.appcues-step-type-sentimentAnalysis > div:first-child div:first-child,
 { background-color: #0063E3; }
 
 /* make these light blue #003C8A */
@@ -58,8 +78,51 @@
 
 
 
-/* Changing all the icons down here */
+/* Changing all the icons (light backgrounds) */
+.appcues-step-category-transform.appcues-step-type-sortV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-limitRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-fillBlanks img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dedupeV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-mergeV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-addRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textCasingV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-numberFormatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversionV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV6 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dataCleaning img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
 
-.appcues-step-category-transform img:first-child {
-    content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--rich-16.png?raw=true");
-}
+
+/* Changing all the icons (rich backgrounds) */
+.appcues-step-category-transform.appcues-step-type-editColumns img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnConcatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnSplitV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textExtractV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-nameParser img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-regex img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textMerge img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-addDateTime img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowNumbers img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-mathOperation img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-ifElse img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-growthRateV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateComparisonV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowLookup img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-minMax img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sentimentAnalysis img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+
+
+/* Changing all the icons (dark backgrounds) */
+.appcues-step-category-transform.appcues-step-type-joinComplexV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-joinComplexV6 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-concatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-pivot img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-unpivotV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-tableFlip img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-findOverlapV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sumV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-count img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-averageV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-maximum img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-groupByV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-minimum img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--light-01.png?raw=true"); }
