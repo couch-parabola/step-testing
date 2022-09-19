@@ -1,7 +1,7 @@
 /* icons white and donut border */
 .appcues-step-category-transform img {
-    filter: grayscale(1) contrast(1) brightness(100);
-    width: 36px;
+    /* filter: grayscale(1) contrast(1) brightness(100);
+    width: 36px; */
 }
 .appcues-step-category-transform > div:first-child > div:first-child {
     border: 15px solid white;
@@ -16,6 +16,7 @@
 /* default rich blue #0063E3 */
 .appcues-step-category-transform > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-sortV2 > div:first-child div:first-child
+.appcues-step-category-transform.appcues-step-type-editColumns > div:first-child div:first-child
 { background-color: #0063E3; }
 
 /* make these light blue #003C8A */
@@ -54,3 +55,11 @@
 .appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 > div:first-child div:first-child
 { background-color: #002659; }
+
+
+
+/* Changing all the icons down here */
+
+.appcues-step-category-transform img:first-child {
+    content: url("https://github.com/couch-parabola/step-testing/blob/23a3e62aa4e6edd23c78ebb9e2130514f868f955/new-icons/sb-ico--rich-16.png?raw=true");
+}
