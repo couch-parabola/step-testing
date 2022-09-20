@@ -4,6 +4,12 @@
     width: 60px;
 }
 
+#scrollableBody {
+    background-color: #F4F8FB !important;
+    background-image: url("https://github.com/couch-parabola/step-testing/blob/main/grid-mid.png?raw=true") !important;
+    background-size: 48px;
+}
+
 .appcues-step-category-transform > div:first-child > div:first-child {
     border: 18px solid white;
     /* box-shadow: 0 0 0 1px #d5e0e8; */
@@ -31,8 +37,11 @@
 .appcues-step-category-transform.appcues-step-type-dateConversionV4 > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-replaceTokensV6 > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-dataCleaning > div:first-child div:first-child
-/* { background-color: #36A3AB; } */
-{ background-color: #8888F7; }
+{ background-color: #36A3AB; }
+/* alt green below */
+/* { background-color: #27A2BD; } */
+/* alt pupple below */
+/* { background-color: #8888F7; } */
 
 /* dark (right column) treatment */
 .appcues-step-category-transform.appcues-step-type-joinComplexV5 > div:first-child div:first-child,
