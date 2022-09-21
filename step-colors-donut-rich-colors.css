@@ -37,11 +37,7 @@
 .appcues-step-category-transform.appcues-step-type-dateConversionV4 > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-replaceTokensV6 > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-dataCleaning > div:first-child div:first-child
-{ background-color: #36A3AB; }
-/* alt green below */
-/* { background-color: #27A2BD; } */
-/* alt pupple below */
-/* { background-color: #8888F7; } */
+{ background-color: #03A1BA; }
 
 /* dark (right column) treatment */
 .appcues-step-category-transform.appcues-step-type-joinComplexV5 > div:first-child div:first-child,
