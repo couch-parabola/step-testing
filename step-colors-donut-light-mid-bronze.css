@@ -56,39 +56,39 @@ img.css-13rohsy.efwd3811 {
 .appcues-step-category-transform.appcues-step-type-replaceTokensV5 > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-replaceTokensV6 > div:first-child div:first-child,
 .appcues-step-category-transform.appcues-step-type-dataCleaning > div:first-child div:first-child
-{ background-color: #EDF2F7; }
+{ background-color: #F8F2EC; }
 
 /* Changing all the icons (left column) */
-.appcues-step-category-transform.appcues-step-type-sort img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-01.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-sortV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-01.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-rowFilter img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-rowFilterV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-rowFilterV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-rowFilterV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-rowFilterV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-limitRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-03.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-fillBlanks img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-04.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dedupe img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-05.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dedupeV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-05.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dedupeV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-05.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-merge img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-06.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-mergeV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-06.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-addRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-07.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-textCasing img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-08.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-textCasingV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-08.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-numberFormat img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-09.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-numberFormatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-09.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dateConversion img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-10.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dateConversionV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-10.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dateConversionV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-10.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dateConversionV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-10.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-replaceTokens img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-11.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-replaceTokensV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-11.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-replaceTokensV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-11.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-replaceTokensV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-11.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-replaceTokensV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-11.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-replaceTokensV6 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-11.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-dataCleaning img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/bs-ico--light-12.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sort img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sortV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilter img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-limitRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-03.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-fillBlanks img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dedupe img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dedupeV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dedupeV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-merge img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-mergeV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-addRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-07.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textCasing img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-08.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textCasingV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-08.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-numberFormat img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-09.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-numberFormatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-09.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversion img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversionV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversionV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversionV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokens img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV6 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dataCleaning img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-12.png?raw=true"); }
 
 /* default (middle column) color */
 .appcues-step-category-transform > div:first-child > div:first-child > div
