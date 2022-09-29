@@ -1,3 +1,10 @@
+:root {
+    --color-left-column: #F8F2EC;
+    --color-middle-column: #D6EEFF;
+    --color-right-column: #E0FBFF;
+    --color-api-steps: #EDF2F7;
+}
+
 /* icon size */
 .css-1y32x6r {
     height: 63px;
@@ -26,37 +33,37 @@ img.css-13rohsy.efwd3811 {
 }
 
 /* left column color */
-.appcues-step-category-transform.appcues-step-type-sort > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-sortV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-rowFilter > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-rowFilterV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-rowFilterV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-rowFilterV4 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-rowFilterV5 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-limitRows > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-fillBlanks > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dedupe > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dedupeV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dedupeV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-merge > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-mergeV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-addRows > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-textCasing > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-textCasingV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-numberFormat > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-numberFormatV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dateConversion > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dateConversionV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dateConversionV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dateConversionV4 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-replaceTokens > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-replaceTokensV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-replaceTokensV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-replaceTokensV4 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-replaceTokensV5 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-replaceTokensV6 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-dataCleaning > div:first-child div:first-child
-{ background-color: #F8F2EC; }
+.appcues-step-category-transform.appcues-step-type-sort > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-sortV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilter > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV5 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-limitRows > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-fillBlanks > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dedupe > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dedupeV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dedupeV3 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-merge > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-mergeV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-addRows > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-textCasing > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-textCasingV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-numberFormat > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-numberFormatV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversion > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversionV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversionV3 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversionV4 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokens > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV3 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV4 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV5 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV6 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dataCleaning > div:first-child > div:first-child div 
+{ background-color: var(--color-left-column); }
 
 /* Changing all the icons (left column) */
 .appcues-step-category-transform.appcues-step-type-sort img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-01.png?raw=true"); }
@@ -91,8 +98,8 @@ img.css-13rohsy.efwd3811 {
 .appcues-step-category-transform.appcues-step-type-dataCleaning img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/bs-ico--light-12.png?raw=true"); }
 
 /* default (middle column) color */
-.appcues-step-category-transform > div:first-child > div:first-child > div
-{background-color: #D6EEFF;}
+.appcues-step-category-transform > div:first-child > div:first-child div
+{background-color: var(--color-middle-column);}
 
 /* Changing all the icons (middle column) */
 .appcues-step-category-transform img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--rich-01.png?raw=true"); }
@@ -130,36 +137,36 @@ img.css-13rohsy.efwd3811 {
 .appcues-step-category-transform.appcues-step-type-sentimentAnalysis img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--rich-16.png?raw=true"); }
 
 /* right column color */
-.appcues-step-category-transform.appcues-step-type-joinComplex > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-joinComplexV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-joinComplexV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-joinComplexV4 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-joinComplexV5 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-joinComplexV6 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-concat > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-concatV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-pivot > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-unpivot > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-unpivotV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-unpivotV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-unpivotV4 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-tableFlip > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-findOverlap > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-findOverlapV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-findOverlapV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-sum > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-sumV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-count > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-countV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-average > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-averageV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-maximum > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-groupBy > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-groupByV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-groupByV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-groupByV4 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-minimum > div:first-child div:first-child
-{ background-color: #E0FBFF; }
+.appcues-step-category-transform.appcues-step-type-joinComplex > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV5 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV6 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-concat > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-concatV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-pivot > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivot > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivotV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivotV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivotV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-tableFlip > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-findOverlap > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-findOverlapV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-findOverlapV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-sum > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-sumV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-count > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-countV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-average > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-averageV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-maximum > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupBy > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupByV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupByV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupByV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-minimum > div:first-child > div:first-child div
+{ background-color: var(--color-right-column);};
 
 /* Changing all the icons (right column) */
 .appcues-step-category-transform.appcues-step-type-joinComplex img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--dark-01.png?raw=true"); }
@@ -193,20 +200,20 @@ img.css-13rohsy.efwd3811 {
 .appcues-step-category-transform.appcues-step-type-minimum img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--dark-12.png?raw=true"); }
 
 /* API steps bg color */
-.appcues-step-category-transform.appcues-step-type-apiEnrichment > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-apiEnrichmentV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-jsonFlattener > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-jsonFlattenerV2 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-jsonFlattenerV3 > div:first-child div:first-child,
-.appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 > div:first-child div:first-child
-{ background-color: #E0FBFF; }
+.appcues-step-category-transform.appcues-step-type-apiEnrichment > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV2 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattener > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV2 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV3 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 > div:first-child  > div:first-child div
+{ background-color: var(--color-api-steps);};
 
 /* Changing all the icons (api stuff) */
-.appcues-step-category-transform.appcues-step-type-apiEnrichment img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--darkest-01.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-apiEnrichmentV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--darkest-01.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--darkest-01.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-jsonFlattener img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--darkest-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-jsonFlattenerV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--darkest-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-jsonFlattenerV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--darkest-02.png?raw=true"); }
-.appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-2r/sb-ico--darkest-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-apiEnrichment img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/sb-ico--darkest-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/sb-ico--darkest-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/sb-ico--darkest-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattener img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/sb-ico--darkest-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/sb-ico--darkest-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/sb-ico--darkest-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-bronze/sb-ico--darkest-02.png?raw=true"); }
