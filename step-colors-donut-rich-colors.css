@@ -22,6 +22,12 @@ img.css-13rohsy.efwd3811 {
     background-size: 48px;
 }
 
+/* make step text have a background */
+.css-8sw0cb, .css-43zqpu {
+    background-color: #F4F8FBDD;
+    border-radius: 3px
+}
+
 .appcues-step-category-transform > div:first-child > div:first-child {
     border: 15px solid white;
     /* box-shadow: 0 0 0 1px #d5e0e8; */

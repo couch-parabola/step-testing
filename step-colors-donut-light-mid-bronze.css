@@ -18,8 +18,14 @@ img.css-13rohsy.efwd3811 {
 
 #scrollableBody {
     background-color: #F4F8FB !important;
-    background-image: url("https://github.com/couch-parabola/step-testing/blob/main/grid-mid.png?raw=true") !important;
-    background-size: 48px;
+    background-image: url("https://github.com/couch-parabola/step-testing/blob/main/grid/grid-mid-square.png?raw=true") !important;
+    background-size: 24px;
+}
+
+/* make step text have a background */
+.css-8sw0cb, .css-43zqpu {
+    background-color: #F4F8FBDD;
+    border-radius: 3px
 }
 
 .appcues-step-category-transform > div:first-child > div:first-child {
