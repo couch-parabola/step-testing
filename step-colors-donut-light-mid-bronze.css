@@ -28,6 +28,12 @@ img.css-13rohsy.efwd3811 {
     border-radius: 3px
 }
 
+.css-7rs9kt.e191dav00 .css-8sw0cb, .css-7rs9kt.e191dav00 .css-43zqpu {
+    background-color: white;
+    border-radius: 3px
+}
+
+/* Shadows or lines depending on if in card */
 .appcues-step-category-transform > div:first-child > div:first-child {
     border: 15px solid white;
     /* box-shadow: 0 0 0 1px #d5e0e8; */
