@@ -1,0 +1,231 @@
+:root {
+    --color-left-column: #E9F9EB;
+    --color-middle-column: #E0FBFF;
+    --color-right-column: #DBF0FF;
+    --color-api-steps: #EDF2F7;
+}
+
+/* icon size */
+.css-1y32x6r {
+    height: 63px;
+    width: 63px;
+}
+
+/* make drag icon disappear */
+img.css-13rohsy.efwd3811 {
+    display: none !important;
+}
+
+#scrollableBody {
+    background-color: #F4F8FB !important;
+    background-image: url("https://github.com/couch-parabola/step-testing/blob/main/grid/grid-mid-square.png?raw=true") !important;
+    background-size: 24px;
+}
+
+/* make step text have a background */
+.css-8sw0cb, .css-43zqpu {
+    background-color: #F4F8FBDD;
+    border-radius: 3px
+}
+
+.css-7rs9kt.e191dav00 .css-8sw0cb, .css-7rs9kt.e191dav00 .css-43zqpu {
+    background-color: white;
+    border-radius: 3px
+}
+
+/* Shadows or lines depending on if in card */
+.appcues-step-category-transform > div:first-child > div:first-child {
+    border: 15px solid white;
+    /* box-shadow: 0 0 0 1px #d5e0e8; */
+    box-shadow: rgb(40 60 75 / 18%) 3px 3px
+}
+
+.css-7rs9kt.e191dav00 .appcues-step-category-transform > div:first-child > div:first-child {
+    box-shadow: 0 0 0 1px #d5e0e8;
+}
+
+/* left column color */
+.appcues-step-category-transform.appcues-step-type-sort > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-sortV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilter > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-rowFilterV5 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-limitRows > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-fillBlanks > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dedupe > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dedupeV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dedupeV3 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-merge > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-mergeV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-addRows > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-textCasing > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-textCasingV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-numberFormat > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-numberFormatV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversion > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversionV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversionV3 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dateConversionV4 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokens > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV2 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV3 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV4 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV5 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-replaceTokensV6 > div:first-child > div:first-child div, 
+.appcues-step-category-transform.appcues-step-type-dataCleaning > div:first-child > div:first-child div 
+{ background-color: var(--color-left-column); }
+
+/* Changing all the icons (left column) */
+.appcues-step-category-transform.appcues-step-type-sort img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sortV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilter img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowFilterV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-limitRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-03.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-fillBlanks img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dedupe img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dedupeV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dedupeV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-merge img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-mergeV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-addRows img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-07.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textCasing img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-08.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textCasingV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-08.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-numberFormat img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-09.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-numberFormatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-09.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversion img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversionV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversionV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateConversionV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokens img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-replaceTokensV6 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dataCleaning img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/bs-ico--light-12.png?raw=true"); }
+
+/* default (middle column) color */
+.appcues-step-category-transform > div:first-child > div:first-child div
+{background-color: var(--color-middle-column);}
+
+/* Changing all the icons (middle column) */
+.appcues-step-category-transform img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnEdit img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnFilter img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-01C.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnFilterV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-01C.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnRename img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-01B.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnReorder img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnConcat img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnConcatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnSplit img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-03.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-columnSplitV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-03.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textExtract img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textExtractV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-nameParser img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-regex img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-textMerge img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-07.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-addDateTime img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-08.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowNumbers img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-09.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-runningTotal img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-17.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-runningTotalV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-17.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-mathOperation img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-insertIfElseColumn img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-insertIfElseColumnV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-insertIfElseColumnV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-insertIfElseColumnV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-growthRate img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-12.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-growthRateV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-12.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateComparison img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-13.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateComparisonV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-13.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateComparisonV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-13.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-dateComparisonV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-13.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-rowLookup img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-14.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-minMax img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-15.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sentimentAnalysis img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--rich-16.png?raw=true"); }
+
+/* right column color */
+.appcues-step-category-transform.appcues-step-type-joinComplex > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV5 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-joinComplexV6 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-concat > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-concatV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-pivot > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivot > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivotV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivotV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-unpivotV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-tableFlip > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-findOverlap > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-findOverlapV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-findOverlapV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-sum > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-sumV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-count > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-countV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-average > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-averageV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-maximum > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupBy > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupByV2 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupByV3 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-groupByV4 > div:first-child > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-minimum > div:first-child > div:first-child div
+{ background-color: var(--color-right-column);};
+
+/* Changing all the icons (right column) */
+.appcues-step-category-transform.appcues-step-type-joinComplex img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-joinComplexV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-joinComplexV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-joinComplexV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-joinComplexV5 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-joinComplexV6 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-concat img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-concatV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-pivot img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-03.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-unpivot img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-unpivotV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-unpivotV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-unpivotV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-04.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-tableFlip img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-05.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-findOverlap img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-findOverlapV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-findOverlapV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-06.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sum img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-07.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-sumV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-07.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-count img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-08.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-countV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-08.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-average img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-09.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-averageV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-09.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-maximum img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-10.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-groupBy img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-groupByV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-groupByV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-groupByV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-11.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-minimum img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--dark-12.png?raw=true"); }
+
+/* API steps bg color */
+.appcues-step-category-transform.appcues-step-type-apiEnrichment > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV2 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattener > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV2 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV3 > div:first-child  > div:first-child div,
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 > div:first-child  > div:first-child div
+{ background-color: var(--color-api-steps);};
+
+/* Changing all the icons (api stuff) */
+.appcues-step-category-transform.appcues-step-type-apiEnrichment img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--darkest-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--darkest-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-apiEnrichmentV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--darkest-01.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattener img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--darkest-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV2 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--darkest-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV3 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--darkest-02.png?raw=true"); }
+.appcues-step-category-transform.appcues-step-type-jsonFlattenerV4 img:first-child { content: url("https://github.com/couch-parabola/step-testing/blob/main/ico/light-mid-greenish/sb-ico--darkest-02.png?raw=true"); }
